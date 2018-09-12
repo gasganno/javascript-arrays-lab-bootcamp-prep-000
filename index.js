@@ -1,41 +1,41 @@
 function destructivelyAppendKitten(name) {
     kittens.push(name)
-    return kittens
+    // not neccessary? return kittens
 }
 
 function destructivelyPrependKitten(name) {
     kittens.unshift(name)
-    return kittens
+    // not neccessary? return kittens
 }
 
 function destructivelyRemoveLastKitten() {
     kittens.pop()
-    return kittens
+    // not neccessary? return kittens
 }
 
 function destructivelyRemoveFirstKitten() {
     kittens.shift()
-    return kittens
+    // not neccessary? return kittens
 }
 
 function appendKitten(name) {
     var newKittens = [...kittens, name]
-    return newKittens
+    // not neccessary? return newKittens
 }
 
 function prependKitten(name) {
     var newKittens = [name, ...kittens]
-    return newKittens
+    // not neccessary? return newKittens
 }
 
 function removeLastKitten() {
     var newKittens = kittens.slice(0, kittens.length - 1)
-    return newKittens
+    // not neccessary? return newKittens
 }
 
 function removeFirstKitten() {
     var newKittens = kittens.slice(1)
-    return newKittens
+    // not neccessary? return newKittens
 }
 
 
