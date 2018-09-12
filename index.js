@@ -1,4 +1,4 @@
-const app = "I don't do much."
+/*const app = "I don't do much."
 
 function destructivelyAppendKitten(name) {
   kittens.push(name);
@@ -39,3 +39,4 @@ function removeFirstKitten() {
   var newArray = kittens.slice(1);
   return newArray
 }
+*/
