@@ -1,5 +1,5 @@
 function destructivelyAppendKitten(name) {
-    
+    name
 }
 
 function destructivelyPrependKitten(name) {
